@@ -7,10 +7,10 @@ import connectDB from "./utils/db.js";
 import roomRoutes from "./routes/room.routes.js";
 import { setupSockets } from "./socket/index.js";
 import analyticsRoutes from "./routes/activity.routes.js";
-import path from "path";
-
+import path from "path"; 
 dotenv.config();
-connectDB();
+connectDB(); 
+
 
 const { urlencoded } = express;
 const __dirname = path.resolve();
